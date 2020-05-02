@@ -14,5 +14,7 @@ public class test {
          */
         N343 sample = new N343();
         System.out.println(sample.integerBreak(10));
+
+
     }
 }
