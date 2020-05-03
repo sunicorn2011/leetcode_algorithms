@@ -5,9 +5,7 @@ public class N110 {
     }
 
     public boolean isBalanced(TreeNode root) {
-        if (root == null) {
-            return true;
-        }
+        if (root == null) return true;
         Integer leftDepth = maxDepth(root.left);
         Integer rightDepth = maxDepth(root.right);
         if (Math.abs(leftDepth - rightDepth) <= 1) {
